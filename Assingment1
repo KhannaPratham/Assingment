@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="2210990258" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <h1>Chitkara University</h1>
+    <p>Located 30 kms from <strong>Chandigarh</strong>, Chitkara University offers a world of learning that will help you reach your goals. Choose from our varied industry endorsed programs. Learn from an outstanding faculty at our state-of-the-art teaching facilities. <i>unlimited opportunities to get placed with one of the 1500+campus recruitersand meet other students with dreams as big as yours.</i> </p>
+
+    <img src="Assigment1.jpg" title="Chitkara University" height="400" width="600">
+    <h2>Courses : </h2>
+    <table border="2" cellspacing="0px" cellpadding="5px" width="50%" height = "300px">
+        <tr>
+            <th><strong>Engineering</strong></th>
+            <th><strong>Science</strong></th>
+            <th><strong>Commerce</strong></th>
+            <th><strong>Others</strong></th>
+            
+        </tr>
+        <tr>
+            <td>B-Tech in CSE</td>
+            <td>BSc in Maths</td>
+            <td>BBA</td>
+            <td>Diploma in IT</td>
+        </tr>
+        <tr>
+            <td>B-Tech in ME</td>
+            <td>BSc in Chemistry</td>
+            <td>MBA in Marketting</td>
+            <td>Diploma in Civil</td>
+        </tr>
+        <tr>
+            <td>B-Tech in CHE</td>
+            <td>BSc in Physics</td>
+            <td>MBA in Finance</td>
+            <td>NCC</td>
+        </tr>
+    </table>
+    
+    <h2>Other Services : </h2>
+    <ol type="1">
+        <li>Bus</li>
+        <li>Career Counselling</li>
+        <li>Sports</li>
+        <li>Hostel</li>
+        <li>Restaurants</li>
+    </ol>
+    <h2>Enquiry Form : </h2>
+    <form action="submit.html">
+        <fieldset>
+            <p>Enter Your Details</p> <br>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="username" placeholder="Enter your name">
+            <br><br>
+            
+            <label for="dist">District</label>
+            <input type="text" id="dist" placeholder="Enter Your District">
+            <br><br>
+            <label for="state">State</label>
+            <input type="text" id="state" placeholder="Enter Your State">
+            <br><br>
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter Your Age">
+            <br><br>
+            <label for="dob">DOB</label>
+            <input type="date">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Your Email">
+            <br><br>
+            <label for="gen">Gender</label>
+            <input type="radio" name="gender" id="gen">Male
+            <input type="radio" name="gender" id="gen">Female
+            <input type="radio" name="gender" id="gen">Other
+            <br><br>
+            <label for="special enquiry">Special Enquiry</label>
+            <input type="special enquiry" id="special enquiry" placeholder="Enter Your enquiry">
+            <br><br>
+            <button>
+            Submit
+            </button>
+           
+        </fieldset>
+    </form>    
+</body>
+</html
